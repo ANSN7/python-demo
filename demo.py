@@ -1,10 +1,11 @@
-from time import process_time
+import timeit
 
-st = process_time()
+start = timeit.default_timer()
 sum_x = 0
 for i in range(1000000):
     sum_x += i
 print('Sum of first 1 million numbers is:', sum_x)
-et = process_time()
-res = et - st
-print('CPU Execution time:', res, 'seconds')
+stop = timeit.default_timer()
+execution_time = stop - start
+
+print("CPU Execution time: "+str(execution_time)+'seconds')
