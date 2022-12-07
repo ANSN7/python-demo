@@ -1,10 +1,12 @@
 import timeit
+import math
 
 start = timeit.default_timer()
-sum_x = 0
-for i in range(1000000):
-    sum_x += i
-print('Sum of first 1 million numbers is:', sum_x)
+# sum_x = 1
+# for i in range():
+#     sum_x += i
+sum_x = math.factorial(1000000)
+print('Factorial is:', sum_x)
 stop = timeit.default_timer()
 execution_time = stop - start
 
