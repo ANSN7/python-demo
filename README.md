@@ -1,6 +1,6 @@
 # Enterprise Web Development - Assignment 1.
 
-__Name:__ [your full name]
+__Name:__ Alka Nixon
 
 ## Overview.
 
@@ -79,8 +79,8 @@ Username: test1 ; Password: pass1
 
 [ Briefly explain any other aspects of your app's design or implementation that is non-standard and worthy of mention.]
 
-[image1]: ./images/image1.png
-[image2]: ./images/image2.png
-[image3]: ./images/image3.png
-[image4]: ./images/image4.png
-[image5]: ./images/image5.png
+[image1]: ./images/img1.jpeg
+[image2]: ./images/img2.jpeg
+[image3]: ./images/img3.jpeg
+[image4]: ./images/img4.jpeg
+[image5]: ./images/img5.jpeg
