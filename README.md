@@ -111,6 +111,7 @@ __Name:__ Alka Nixon
 
 > Actor's personal details are fetched from person endpoint of TMDB, profiles are fetched from images endpoint and social media profile ids are from external ids endpoint.
 
+![][image14]
 ![][image16]
 
 #### Pagination.
