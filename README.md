@@ -118,32 +118,25 @@ __Name:__ Alka Nixon
 
 > User can view next and previous pages by clicking arrows in movies home page and also in movie category pages. Button will be disabled when the user reaches the last page and also when clicks "previous" from page 1.
 
-![][image17]
-
 #### Movie sorting.
 
 > Sorting can be done based on 8 parameters as shown below.
 
 ![][image18]
 
-#### Movie sorting in favourite movies page.
-
-> Sorting can also be done based on 8 parameters in favourite movies page as shown below.
-
 ![][image19]
 
+#### Movie sorting in favourite movies page.
+
+> Sorting can also be done based on 8 parameters in favourite movies page as above.
 
 #### Hyperlinking
 
 > User can navigate to actor details page from movie details page and also from full cast and crew page by clicking on the actor's card component. Also user can go to movie details page from full cast and crew page by clicking on the movie header. 
 
-![][image20]
-
 #### Logo navigation
 
 > User can navigate to home page by clicking logo. 
-
-![][image21]
 
 #### Movie category toolbar.
 
@@ -163,7 +156,7 @@ __Name:__ Alka Nixon
 
 #### Title and logo of application
 
-> Title and logo of application changed to match the scenario.
+> Title(TMDB Client) and logo of application changed to match the scenario. The logo is shown below:
 
 ![][image24]
 
@@ -195,30 +188,22 @@ __Name:__ Alka Nixon
 + /person/{person_id}/external_ids (Protected) - A specific actor's external IDs (social media profile IDs).
 
 
-#### Protected features (if relevant)
+#### Protected features
 
-[ Briefly state other areas where you used authentication in the app, for example, to protect access to functionality, e.g. only authenticated users can 'favourite' a movie.]
+Unauthenticated users can access the home page and favourites page. Anyone can add movies to favourites and delete them. Also, filter and sorting functionality is accessibile for all. But all other functionalities like viewing actor or movie details, adding fantasy movies etc. are available only for authenticated users.
 
-#### Supabase (if relevant)
+#### Supabase
 
-[ Include a screenshot(s) from your Supabase account that verifies its use for this app. ]
+![][image13]
 
-## Deployment (if relevant).
+Project url and project key is provided as env variables.
 
-[ Specify the URL of your deployed app and include a screenshot(s) from your deployment platform (e.g. Vercal) account that verifies its use for this app. Have a preregistered user for your app and specify their credentials.
-
-Username: test1 ; Password: pass1
-]
-
-## Persistence (if relevant).
-
-[ If you are persisting data to the Supabase backend, e.g. favourite movies, fantasy movie, include screenshots with appropriate captions to verify this aspect. ]
 
 ## Additional Information.
 
-[ Briefly explain any other aspects of your app's design or implementation that is non-standard and worthy of mention.]
+Form validation is provided, where proper error messages are shown to user. Snackbar used to show success messages.
 
-[image1]: ./images/img1.jpeg
+[image1]: ./images/image1.png
 [image2]: ./images/img2.jpeg
 [image3]: ./images/img3.jpeg
 [image4]: ./images/img4.jpeg
