@@ -204,7 +204,28 @@ Project url and project key is provided as env variables.
 Form validation is provided, where proper error messages are shown to user. Snackbar used to show success messages.
 
 [image1]: ./images/image1.png
-[image2]: ./images/img2.jpeg
-[image3]: ./images/img3.jpeg
-[image4]: ./images/img4.jpeg
-[image5]: ./images/img5.jpeg
+[image2]: ./images/image2.png
+[image3]: ./images/image3.png
+[image4]: ./images/image4.png
+[image5]: ./images/image5.png
+[image6]: ./images/image6.png
+[image7]: ./images/image7.png
+[image8]: ./images/image8.png
+[image9]: ./images/image9.png
+[image10]: ./images/image10.png
+[image11]: ./images/image11.png
+[image12]: ./images/image12.png
+[image13]: ./images/image13.png
+[image14]: ./images/image14.png
+[image15]: ./images/image15.png
+[image16]: ./images/image16.png
+[image17]: ./images/image17.png
+[image18]: ./images/image18.png
+[image19]: ./images/image19.png
+[image20]: ./images/image20.png
+[image21]: ./images/image21.png
+[image22]: ./images/image22.png
+[image23]: ./images/image23.png
+[image24]: ./images/image24.png
+[image25]: ./images/image25.png
+
