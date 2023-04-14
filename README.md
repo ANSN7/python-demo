@@ -27,32 +27,168 @@ __Name:__ Alka Nixon
 
 
 
-
-
-
 ## Feature Design.
 
-[ For each feature listed in the overview, show a screenshot(s) of its UI layout (use appropriate magnification for accessibility). Include captions with the images.]
+#### The Upcoming Movies page.
 
-e.g. 
-
-#### The Upcoming Movies feature.
-
-> Lists movies from the Upcoming movies endpoint of TMDB
+> Lists movies from the Upcoming movies endpoint of TMDB when clicked on "Upcoming" button from the toolbar.
 
 ![][image1]
 
-#### Movies Reviews feature.
+#### The Top Rated Movies page.
 
-> Lists all the reviews for a particular movie (text extract only).
+> Lists movies from the Top Rated movies endpoint of TMDB when clicked on "Top Rated" button from the toolbar.
 
 ![][image2]
 
-> Click the 'Full Review' link of an entry in the above list to show the full text of a review. 
+#### The Popular Movies page.
+
+> Lists movies from the Popular movies endpoint of TMDB when clicked on "Popular" button from the toolbar.
 
 ![][image3]
 
-.... other features .......
+#### The Now Playing Movies page.
+
+> Lists movies from the Upcoming movies endpoint of TMDB when clicked on "Now Playing" button from the toolbar.
+
+![][image4]
+
+#### Actors list in movie details page.
+
+> Filter the first 10 actors of a movie from credits endpoint of TMDB and list them in the corresponding movie details page.
+
+![][image5]
+
+#### Full cast and crew page.
+
+> List all cast and crew from credits endpoint of TMDB when clicked on "See more" button from above page.
+
+> cast
+![][image6]
+
+> crew
+![][image7]
+
+#### Fantasy movie page.
+
+> When clicked on avatar from the toolbar, user is presented with a new page, which lists all the created fantasy movies, if exists. Otherwise, a text is shown as in the below figure.
+
+![][image8]
+
+> When "create movie" button is clicked, user is redirected to a form where he/she can add movie title and overview to create a new fantasy movie.
+
+![][image9]
+
+> The created movies are listed as below
+
+![][image10]
+
+#### Login page.
+
+> User can login with email and password, both input fields are required, otherwise errors are displayed.
+
+![][image11]
+
+#### Register page.
+
+> User can register with email and password, all input fields are required, otherwise errors are displayed. Confirm password must match with the password input, else error message is displayed.
+
+![][image12]
+
+#### Supabase authentication.
+
+> Supabase is used for authentication of user. If logged in, user can access all routes. If not logged in, user can view Home page(discover movies page) and favourite movies page where user is allowed to add movies to favourites and can use the filter and sort fucntionality. Home page and favourites page are public routes and all others are private routes which are protected and cannot be accessed without logging in.
+
+![][image13]
+
+> If logged in, "login" and "register" buttons are not displayed. Instead "logout" button is displayed. 
+
+![][image14]
+
+> If not logged in, "login" and "register" buttons are displayed. Both "logout" button and toolbar for movie categories are not displayed. 
+
+![][image15]
+
+#### Actor bio page.
+
+> Actor's personal details are fetched from person endpoint of TMDB, profiles are fetched from images endpoint and social media profile ids are from external ids endpoint.
+
+![][image16]
+
+#### Pagination.
+
+> User can view next and previous pages by clicking arrows in movies home page and also in movie category pages. Button will be disabled when the user reaches the last page and also when clicks "previous" from page 1.
+
+![][image17]
+
+#### Movie sorting.
+
+> Sorting can be done based on 8 parameters as shown below.
+
+![][image18]
+
+#### Movie sorting in favourite movies page.
+
+> Sorting can also be done based on 8 parameters in favourite movies page as shown below.
+
+![][image19]
+
+
+#### Hyperlinking
+
+> User can navigate to actor details page from movie details page and also from full cast and crew page by clicking on the actor's card component. Also user can go to movie details page from full cast and crew page by clicking on the movie header. 
+
+![][image20]
+
+#### Logo navigation
+
+> User can navigate to home page by clicking logo. 
+
+![][image21]
+
+#### Movie category toolbar.
+
+> New toolbar created for different categories of movie.
+
+#### Must watch icon
+
+> Must watch icon added for different categories of movie.
+
+![][image22]
+
+#### Favourites icon in movie details page.
+
+> Favourites icon in movie details page if movie selected as favourite.
+
+![][image23]
+
+#### Title and logo of application
+
+> Title and logo of application changed to match the scenario.
+
+![][image24]
+
+#### Image list scrollbar
+
+> In movie and actor details page, imagelist is displayed with responsive scrollbar.
+
+![][image25]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Storybook.
 
