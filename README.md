@@ -175,42 +175,26 @@ __Name:__ Alka Nixon
 ![][image25]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Storybook.
 
-[ Include a screenshot(s) from the Storybook UI and highlight the stories for new components developed.]
-
-e.g.
-
-![][image5]
+![][image26]
 
 ## Authentication.
 
-[ List all the routes in your app and highlight those that are protected/private (require authentication).]
-
-e.g.
-
-+ /movies - List of 20  movies from the Discover endpoint,
-+ /movies/{movie_id} - Detailed information on a specific movie.
-+ /reviews/{review_id} (Protected) - The full text of a movie review.
-+ /movie/{movie_id}/similar - A list of similar movies. 
++ /discover/movie - List of all movies from the Discover endpoint.
++ /movie/upcoming (Protected) - List of all upcoming movies from the upcoming endpoint.
++ /movie/popular (Protected) - List of all popular movies.
++ /movie/top_rated (Protected) - List of all top rated movies.
++ /movie/now_playing (Protected) - List of all movies now playing in the theatres.
++ /genre/movie/list (Protected) - List of all genres.
++ /movie/{movie_id}/images (Protected) - List of all images on a specific movie.
++ /movies/{movie_id} (Protected) - Detailed information on a specific movie.
++ /movie/{movie_id}/reviews (Protected) - List of all reviews on a specific movie.
++ /movie/{movie_id}/credits (Protected) - List of all cast and crew for a specific movie. 
 + /person/{person_id} (Protected) - A specific actor's bio.
-+ etc
-+ etc
++ /person/{person_id}/images (Protected) - A specific actor's images.
++ /person/{person_id}/external_ids (Protected) - A specific actor's external IDs (social media profile IDs).
+
 
 #### Protected features (if relevant)
 
