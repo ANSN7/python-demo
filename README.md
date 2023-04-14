@@ -4,11 +4,31 @@ __Name:__ Alka Nixon
 
 ## Overview.
 
-[A bullet-point list of the features developed for the React SPA app (new/modified ones only for the Movies app),]
++ Upcoming movies page.
++ Top rated movies page.
++ Popular movies page.
++ Page for movies that are now playing in theatres.
++ Main actors list in movie details page.
++ List view for full cast and crew page (with new parameterized route).
++ Fantasy movie page where users can add and view their own movies.
++ Login and register page.
++ Supabase authentication - private and public routes.
++ Actor bio page, with personal details, social media profile links and profile images.
++ Pagination support for different category movies (All movies, Top rated, popular, now playing and upcoming).
++ Movie sorting functionality based on 8 parameters.
++ Sorting functionality in favourite movies page.
++ Extensive hyperlinking in actors and movies page.
++ Navigation on clicking logo.
++ New toolbar for different movie categories.
++ Must watch icon for upcoming movies.
++ Favourites icon in Movie details page if movie selected as favourite.
++ Updated title and logo to match the application scenario.
++ Responsive scroll bar for the image list in the movie and actor details page.
 
-+ Feature X.
-+ Feature Y. 
-+ etc.
+
+
+
+
 
 ## Feature Design.
 
