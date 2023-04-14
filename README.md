@@ -103,8 +103,6 @@ __Name:__ Alka Nixon
 
 > If logged in, "login" and "register" buttons are not displayed. Instead "logout" button is displayed. 
 
-![][image14]
-
 > If not logged in, "login" and "register" buttons are displayed. Both "logout" button and toolbar for movie categories are not displayed. 
 
 ![][image15]
