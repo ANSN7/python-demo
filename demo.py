@@ -9,7 +9,7 @@ print(datetime.utcnow())
 # sum_x = 1
 # for i in range():
 #     sum_x += i
-sum_x = math.factorial(100000)
+sum_x = math.factorial(10000000)
 # print('Factorial is:', sum_x)
 stop = timeit.default_timer()
 print(stop)
