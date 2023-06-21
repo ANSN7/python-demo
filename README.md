@@ -89,6 +89,12 @@ Env variables for angular app can be seen in the folder 'src/environment' where 
 | /api/reading-list |Gets full reading list |Add a new book |Update book details including status |Delete a book
 | /api/reading-list/{bookId} |Gets a book based on the book id
 
+
+| Endpoint | GET    | POST    | PUT    | DELETE    |
+| :---:   | :---: | :---: |
+| /api/reading-list |Gets full reading list |Add a new book |Update book details including status |Delete a book
+| /api/reading-list/{bookId} |Gets a book based on the book id
+
 API documentation done by using Swagger, the url for Swagger UI will be
 "http://localhost:8080/api-docs/"
 
